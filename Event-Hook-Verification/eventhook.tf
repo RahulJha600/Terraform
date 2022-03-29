@@ -8,7 +8,7 @@ resource "okta_event_hook" "example" {
   channel = {
     type    = "HTTP"
     version = "1.0.0"
-    uri     = "https://example.com/test"
+    uri     = "https://exampleThisistest.com/test"
   }
 
   auth = {
